@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-right: 16px;
+}
+
+#photo {
+    width: 40%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    position: static;
+}
+
+#logo {
+    position: absolute;
+    top: 20%;
+    font-family: 'Pacifico';
+    font-size: 72px;
+    padding-left: 92px;
+    color: white;
+    z-index: 1;
+    padding-top: 0%;
+}
+
+#bg {
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    opacity: 40%;
+}
+
+#top, #bottom {
+    height: 30%;
+    background-color: rgb(243, 241, 241);
+    padding: 30px;
+}
+
+#top, form, #bottom {
+    padding-left: 30px;
+}
+
+#body {
+    width: 60%;
+}
+
+form {
+    display:flex;
+    font-size: 12px;
+    height: 40%;
+    background-color: white;
+}
+
+button {
+    background-color: aqua;
+    height: 55px;
+    width: 180px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(39, 36, 36);
+}
+
+
+
+#signup {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+.label {
+    padding-top: 10px;
+}
+
+
+#left {
+    padding-right: 25px;
+}
+
+
